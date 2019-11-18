@@ -26,16 +26,10 @@
   
   <distributionManagement>
    <snapshotRepository>
-      <id>nexus-snapshots</id>
+      <id>SAMPLE-SNAP</id>
       <url>http://18.188.234.124:8081/repository/SAMPLE-SNAP/</url>
    </snapshotRepository>
 </distributionManagement>
-  
-  <configuration>
-      <serverId>nexus</serverId>
-      <nexusUrl>http://localhost:8081/</nexusUrl>
-      <skipStaging>true</skipStaging>
-   </configuration>
   
   <dependencies>
     <dependency>
