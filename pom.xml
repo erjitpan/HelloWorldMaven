@@ -14,13 +14,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-<distributionManagement>
-       <repository>
-         <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>http://18.188.234.124:8081/repository/SAMPLE-SNAP/</url>
-       </repository>
-   </distributionManagement>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://18.188.234.124:8081/repository/SAMPLE-SNAP/</url>
+   </snapshotRepository>
+</distributionManagement>
   
   <dependencies>
     <dependency>
