@@ -31,6 +31,12 @@
    </snapshotRepository>
 </distributionManagement>
   
+  <configuration>
+      <serverId>nexus</serverId>
+      <nexusUrl>http://localhost:8081/</nexusUrl>
+      <skipStaging>true</skipStaging>
+   </configuration>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
