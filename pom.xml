@@ -21,6 +21,12 @@
          <url>file:///var/lib/jenkins/myartifacts/</url>
        </repository>
    </distributionManagement>
+  
+  <snapshotRepository>
+    <id>deployment</id>
+    <name>Internal Snapshor Release</name>
+    <url>http://18.188.234.124:8081/repository/SAMPLE-SNAP/</url>
+  </snapshotRepository>
 
   <dependencies>
     <dependency>
